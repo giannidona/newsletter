@@ -1,7 +1,7 @@
 ---
 import Header from "../components/Header.astro";
-
-const pageTitle = "Sobre Mi";
+import Footer from "../components/Footer.astro";
+const { pageTitle } = Astro.props;
 ---
 
 <html lang="es">
@@ -12,7 +12,11 @@ const pageTitle = "Sobre Mi";
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
   </head>
-  <body class="w-7/12 mx-auto mt-12 bg-orange-200">
+  <body class="w-5/6 md:w-7/12 lg:w-5/12 xl:w-3/12 mx-auto mt-12 bg-orange-200">
     <Header />
+    <p>INICIO</p>
+    <slot />
+
+    <Footer />
   </body>
 </html>

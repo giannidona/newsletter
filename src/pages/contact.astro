@@ -1,22 +1,17 @@
 ---
-
+import Header from "../components/Header.astro";
+const pageTitle = "Contacto";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body class="w-7/12 mx-auto mt-12 bg-orange-200	">
-		<section class="text-right">
-			<h1 class="font-semibold">giannidona</h1>
-			<p class="mb-10">newsletter</p>
-			<a class="ml-2" href="/">Inicio</a>
-			<a class="ml-2" href="/about/">Sobre Mi</a>
-			<a class="ml-2" href="/about/">Contacto</a>
-		</section>
-	</body>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{pageTitle}</title>
+  </head>
+  <body class="w-7/12 mx-auto mt-12 bg-orange-200">
+    <Header />
+  </body>
 </html>
