@@ -21,6 +21,19 @@ const { frontmatter } = Astro.props;
       </div>
       <slot />
       <div class="my-5">
+        <p>
+          Si queres seguir hablando sobre el tema podes por mi <a
+            class="underline font-bold"
+            href=`mailto:${frontmatter.mail}`
+            target="_blank">mail</a
+          > o por <a
+            class="underline font-bold"
+            href="https://twitter.com/giannidona_dev"
+            target="_blank">twitter</a
+          >.
+        </p>
+      </div>
+      <div class="my-5">
         <a
           class="text-blue-800 tracking-wide font-semibold hover:text-blue-600"
           href="/">&larr; Volver</a

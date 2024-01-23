@@ -1,28 +1,33 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-pageTitle: "Primera"
-title: "Mi primera publicación en el blog"
+pageTitle: "giannidona newsletter"
+title: "El Principio de algo"
 pubDate: "Enero 23, 2024"
-description: "Este es la primera publicación de mi nuevo blog Astro."
-author: "Alumno de Astro"
-image:
-  url: "https://docs.astro.build/assets/full-logo-light.png"
-  alt: "El logotipo completo de Astro."
-tags: ["astro", "bloguear", "aprender en público"]
+description: "el porque y que se viene"
+author: "gianndidona"
+mail: "giannidonato.dev@gmail.com?subject=Primer%20Post"
 ---
 
-# **Mi primera publicación en el blog**
+# **¿POR QUÉ HICE UN NEWSLETTER?**
 
-¡Bienvenido a mi _nuevo blog_ sobre el aprendizaje de Astro! Aquí, voy a compartir mi viaje de aprendizaje a medida que construyo un nuevo sitio web.
+<br>
+Primero, gracias por estar leyendo esto🥰. Segundo, no creo que vaya a ser la mejor redacción, pero con el tiempo voy a ir mejorando.
+<br>
+<br>
+Hago este newsletter porque me propuse como meta este año programar todos los días. Estoy desde el 8 de enero haciendo esto, algunos commits un poco forzados, pero bueno, lo quiero dejar documentado.
+<br>
+<br>
+Otra razón por la cual hago esto también es para, todas las semanas, aprender algo nuevo y publicarlo aca. En este caso, aprendí Astro haciendo esto. Me pareció una locura, la verdad, y el tutorial lo super recomiedo.
+<br>
+<br>
+Y, por último, pero no menos importante, lo hago para conocer gente y tener un poco más de engagement. Considero que es algo bastante importante en el mundo IT.
+<br>
+<br>
 
-## Lo que he conseguido
+## **¿CADA CUÁNTO VOY A PUBLICAR UN NUEVO POST?**
 
-1. **Instalación de Astro**: En primer lugar, he creado un nuevo proyecto Astro y configurar mis cuentas en línea.
-
-2. **Creación de páginas**: Luego aprendí cómo hacer páginas creando nuevos archivos `.astro` y colocándolos en la carpeta `src/pages/`.
-
-3. **Creación de publicaciones**: ¡Esta es mi primera publicación! ¡Ahora tengo páginas de Astro y publicaciónes en Markdown!
-
-## Próximos pasos
-
-Terminaré el tutorial de Astro, y luego seguiré añadiendo más publicaciones. Mira este espacio para más por venir.
+<br>
+Tengo pensado hacerlo todos los viernes, hablando sobre lo que aprendí en la semana o cosas relacionadas al mundo IT.
+<br>
+<br>
+Bueno, dejo de sacarles tiempo y nos vemos el viernes que viene!🫡
