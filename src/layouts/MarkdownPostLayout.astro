@@ -6,9 +6,13 @@ const { frontmatter } = Astro.props;
 <body class="w-5/6 md:w-7/12 lg:w-5/12 xl:w-3/12 mx-auto mt-12 bg-orange-200">
   <Header />
   <div class="mt-10">
-    <h1 class="font-bold">{frontmatter.title}</h1>
-    <p class="mt-5">{frontmatter.description}</p>
-    <img src={frontmatter.image.url} width="300" alt="astro" />
+    <div class="my-2">
+      <h1 class="font-bold">{frontmatter.title}</h1>
+      <p>{frontmatter.description}</p>
+    </div>
     <slot />
+    <div class="my-5">
+      <a href="/">Volver</a>
+    </div>
   </div>
 </body>
