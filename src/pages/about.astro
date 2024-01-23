@@ -1,18 +1,28 @@
 ---
-import Header from "../components/Header.astro";
-
-const pageTitle = "Sobre Mi";
+import BaseLayout from "../layouts/BaseLayout.astro";
+const pageTitle = "Sobre mi";
 ---
 
-<html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>{pageTitle}</title>
-  </head>
-  <body class="w-7/12 mx-auto mt-12 bg-orange-200">
-    <Header />
-  </body>
-</html>
+<BaseLayout pageTitle={pageTitle}>
+  <h1 class="font-bold text-2xl">Sobre Mi</h1>
+  <p class="mt-7 mb-5">Hola👋, soy Gianluca, programador argentino.</p>
+  <p class="mb-5">
+    Casi todo lo que programo es en JS, pero últimamente me está llamando la
+    atención el no-code💻.
+  </p>
+  <p class="mb-5">
+    A veces hago streams en <a
+      class="underline font-bold"
+      href="https://www.twitch.tv/giannidona"
+      target="_blank">twitch</a
+    > creando proyectos o aprendiendo📖.
+  </p>
+  <p>
+    Mi hobby es ser dj, te dejo mi <a
+      class="underline font-bold"
+      href="twitch.tv/giannidonaa"
+      href="https://soundcloud.com/gianlucadonato"
+      target="_blank">soundcloud</a
+    > por si quieres escuchar algunos de mis sets.
+  </p>
+</BaseLayout>
