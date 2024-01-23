@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 pageTitle: "giannidona newsletter"
 title: "El Principio de algo"
-pubDate: "Enero 23, 2024"
+pubDate: 2024-01-23
 description: "el porque y que se viene"
 author: "gianndidona"
 mail: "giannidonato.dev@gmail.com?subject=Primer%20Post"
