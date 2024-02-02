@@ -1,6 +1,17 @@
 ---
 import Header from "../components/Header.astro";
 const { frontmatter } = Astro.props;
+import { format, parseISO } from "date-fns";
+import { utcToZonedTime } from "date-fns-tz";
+
+function formatDate(dateString) {
+  // Parsea la cadena de fecha y conviértela a la zona horaria UTC
+  const date = parseISO(dateString);
+  const utcDate = utcToZonedTime(date, "UTC");
+
+  // Formatea la fecha como desees, por ejemplo: 'yyyy-MM-dd'
+  return format(utcDate, "yyyy-MM-dd");
+}
 ---
 
 <html lang="es">
@@ -15,7 +26,7 @@ const { frontmatter } = Astro.props;
     <Header />
     <div class="mt-10">
       <div class="mt-2 mb-10">
-        <p class="italic">{frontmatter.pubDate}</p>
+        <p class="italic">{formatDate(frontmatter.pubDate)}</p>
         <h1 class="font-bold text-3xl my-4">{frontmatter.title}</h1>
       </div>
       <slot />
@@ -25,10 +36,6 @@ const { frontmatter } = Astro.props;
             class="underline font-bold"
             href=`mailto:${frontmatter.mail}`
             target="_blank">mail</a
-          > o por <a
-            class="underline font-bold"
-            href="https://twitter.com/giannidona_dev"
-            target="_blank">twitter</a
           >.
         </p>
       </div>
