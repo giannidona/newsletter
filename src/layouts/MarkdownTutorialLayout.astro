@@ -1,15 +1,6 @@
 ---
 import Header from "../components/Header.astro";
 const { frontmatter } = Astro.props;
-import { format, parseISO } from "date-fns";
-import { utcToZonedTime } from "date-fns-tz";
-
-function formatDate(dateString) {
-  const date = parseISO(dateString);
-  const utcDate = utcToZonedTime(date, "UTC");
-
-  return format(utcDate, "yyyy-MM-dd");
-}
 ---
 
 <html lang="es">
@@ -24,7 +15,6 @@ function formatDate(dateString) {
     <Header />
     <div class="mt-10">
       <div class="mt-2 mb-10">
-        <p class="italic">{formatDate(frontmatter.pubDate)}</p>
         <h1 class="font-bold text-3xl my-4">{frontmatter.title}</h1>
       </div>
       <slot />

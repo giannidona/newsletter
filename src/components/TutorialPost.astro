@@ -1,0 +1,12 @@
+---
+const { title, url, description } = Astro.props;
+---
+
+<div class="my-2 py-2 px-3">
+  <a class="font-bold hover:underline" href={url}>{title}</a>
+  <p class="text-gray-500 mb-2">{description}</p>
+  <a
+    class="text-blue-800 tracking-wide font-semibold hover:text-blue-600"
+    href={url}>Ver Tutorial &rarr;</a
+  >
+</div>

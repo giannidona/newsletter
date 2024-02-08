@@ -1,0 +1,19 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TutorialPost from "../components/TutorialPost.astro";
+
+const pageTitle = "giannidona - tutoriales";
+const allTutorials = await Astro.glob("../pages/tutorials/*.md");
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  {
+    allTutorials.map((post) => (
+      <TutorialPost
+        url={post.url}
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+      />
+    ))
+  }
+</BaseLayout>
