@@ -8,7 +8,7 @@ function formatDate(dateString) {
   const date = parseISO(dateString);
   const utcDate = utcToZonedTime(date, "UTC");
 
-  return format(utcDate, "yyyy-MM-dd");
+  return format(utcDate, "yyyy-dd-MM");
 }
 ---
 
@@ -40,7 +40,7 @@ function formatDate(dateString) {
       <div class="my-5">
         <a
           class="text-blue-800 tracking-wide font-semibold hover:text-blue-600"
-          href="/tutorials">&larr; Volver</a
+          href="/">&larr; Volver</a
         >
       </div>
     </div>
