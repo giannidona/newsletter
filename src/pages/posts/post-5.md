@@ -8,7 +8,7 @@ author: "gianndidona"
 mail: "giannidonato.dev@gmail.com?subject=Marca%20Personal"
 ---
 
-# **Quiero ver como me va como emprendedor**
+# **QUIERO VER COMO ME VA COMO EMPRENDEDOR**
 
 <br>
 ¿Que voy a tener en cuenta para llevar a cabo mi marca personal?

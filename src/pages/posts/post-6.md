@@ -8,7 +8,7 @@ author: "gianndidona"
 mail: "giannidonato.dev@gmail.com?subject=Mi%20Stack"
 ---
 
-# **Es importante resaltar en algo y no saber un poco de todo**
+# **ES IMPORTANTE RESALTAR EN ALGO Y NO SABER UN POCO DE TODO**
 
 <br>
 Escribo este post porque me parece interesante este tema. Si queres resaltar para conseguir un laburo ya sea de manera freelance o en alguna empresa necesitas especificarte en algo, en mi caso voy a usar un stack para lo que resta del año.
