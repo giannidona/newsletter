@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 pageTitle: "giannidona newsletter"
 title: "La constancia"
-pubDate: 2024-05-17
+pubDate: 2024-05-24
 description: "la constancia atrae la suerte."
 author: "gianndidona"
 mail: "giannidonato.dev@gmail.com?subject=La%20constancia"
