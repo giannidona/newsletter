@@ -1,11 +1,11 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 pageTitle: "giannidona newsletter"
-title: "Indy ui"
+title: "Ultimo post"
 pubDate: 2024-06-07
 description: "Migracion y cambios de este proyecto"
 author: "gianndidona"
-mail: "giannidonato.dev@gmail.com?subject=Indy%20UI"
+mail: "giannidonato.dev@gmail.com?subject=ultimo"
 ---
 
 <br>
